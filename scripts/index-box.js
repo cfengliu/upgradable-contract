@@ -3,7 +3,7 @@ async function main() {
     // const accounts = await ethers.provider.listAccounts();
     // console.log(accounts);
 
-    const address = "0x1D1049ff4472A00AB536A6026cCE909B242CB87e"
+    const address = "0x99AD37278a6a7B15897088E19c81A03A3Cb12C45"
     const Box = await ethers.getContractFactory("BoxUpgrade");
     const box = await Box.attach(address);
 

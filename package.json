@@ -8,5 +8,8 @@
     "chai": "^4.2.0",
     "ethers": "^5.0.24",
     "hardhat": "^2.0.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^3.3.0"
   }
 }

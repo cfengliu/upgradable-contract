@@ -9,7 +9,7 @@ module.exports = {
     defaultNetwork: "ganache",
     networks: {
         ganache: {
-            url: "http://172.19.240.1:7545",
+            url: "http://172.17.144.1:7545",
             // accounts: [privateKey1, privateKey2, ...]
         }
     },

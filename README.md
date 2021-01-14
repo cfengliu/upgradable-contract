@@ -1,6 +1,6 @@
 # upgradable-contract
 
-## 步驟
+## Box Contract
 
 ``` bash
 
@@ -18,4 +18,14 @@ npx hardhat run ./scripts/upgrade-box.js
 
 操作v2合約，記得改contract address function store 成功
 npx hardhat run ./scripts/index-v2-box.js
+```
+
+## ERC20 contract
+
+```bash
+npx hardhat run ./scripts/erc20-deploy-proxy.js
+
+npx hardhat run ./scripts/erc20-getInfo-proxy.js
+
+npx hardhat run ./scripts/erc20-transfer-proxy.js
 ```
